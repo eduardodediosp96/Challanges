@@ -6,8 +6,8 @@ import CalculatorWrapper from "../../components/CssComponents/CalculatorWrapper"
 import Screen from "../../components/CssComponents/Screen";
 import Button from "../../components/CssComponents/Button";
 import "./Calculator.css";
-import { initialCalc } from "./resources/operators";
 import { evaluate, pow } from "mathjs";
+import { initialCalc } from "./resources/initialCalcState";
 const flattedButtons = buttons.flat();
 
 const Calculator = (props) => {
