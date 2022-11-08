@@ -1,0 +1,10 @@
+/* your css code */
+.calculatorWrapper {
+  width: var(--calculator-width);
+  height: var(--calculator-height);
+  padding: var(--calculator-padding);
+  border-radius: 10px;
+  background-color: var(--wrapper);
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+  animation: pop-in 0.6s ease-out backwards;
+}

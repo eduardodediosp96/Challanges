@@ -1,0 +1,33 @@
+.button {
+  border: none;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 10px;
+  outline: none;
+  background-color: var(--button);
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--button-hover);
+}
+
+.equals {
+  font-weight: 800;
+  cursor: pointer;
+  /* grid-row: 4/6;
+  grid-column: 4/5; */
+  grid-column: 3/5;
+  background-color: var(--equal);
+  color: var(--text);
+}
+.equals:hover {
+  background-color: var(--equal-hover);
+}
+
+.zero {
+  font-weight: 800;
+  cursor: pointer;
+  /* grid-column: 1/3; */
+}

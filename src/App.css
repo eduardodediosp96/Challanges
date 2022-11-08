@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+:root {
+  /* colors */
+  --background: #fbb034;
+  --wrapper: #485461;
+  --screen: #4357692d;
+  --button: #503cd1;
+  --button-hover: #403cd1;
+  --equal: #f33d1d;
+  --equal-hover: #e33d1d;
+  --text: #ffffff;
+
+  /* sizes */
+  --calculator-height: 540px;
+  --calculator-width: 340px;
+  --calculator-padding: 10px;
+  --screen-heigth: 110px;
+  --buttons-wrapper-heigth: calc(100% - var(--screen-heigth));
+}
+
+[data-theme="dark"] {
+  --background: black;
+  --text-primary: white;
+  --text-secondary: grey;
+  --accent: darkred;
+}
+
+@keyframes pop-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-4rem) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}

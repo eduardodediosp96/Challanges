@@ -1,0 +1,15 @@
+/* your css code */
+.screen {
+  width: 100%;
+  padding: 0 10px;
+  background-color: var(--screen);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: var(--text);
+  font-weight: bold;
+  box-sizing: border-box;
+  min-height: var(--screen) !important;
+  height: var(--screen) !important;
+}

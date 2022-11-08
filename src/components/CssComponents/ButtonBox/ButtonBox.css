@@ -1,0 +1,9 @@
+/* your css code */
+.buttonsWrapper {
+  display: grid;
+  height: var(--buttons-wrapper-heigth);
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: var(--wrapper);
+  padding: 8px;
+  gap: 4px;
+}
